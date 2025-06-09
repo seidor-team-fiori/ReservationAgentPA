@@ -1,0 +1,332 @@
+{
+    "type": "object",
+    "properties": {
+        "statusCode": {
+            "type": "integer"
+        },
+        "response": {
+            "type": "object",
+            "properties": {
+                "structured": {
+                    "type": "object",
+                    "properties": {
+                        "d": {
+                            "type": "object",
+                            "properties": {
+                                "__metadata": {
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "type": "string"
+                                        },
+                                        "uri": {
+                                            "type": "string"
+                                        },
+                                        "type": {
+                                            "type": "string"
+                                        }
+                                    }
+                                },
+                                "Copy_ac": {
+                                    "type": "boolean"
+                                },
+                                "Edit_ac": {
+                                    "type": "boolean"
+                                },
+                                "AssetNumber_fc": {
+                                    "type": "integer"
+                                },
+                                "CostCenter_fc": {
+                                    "type": "integer"
+                                },
+                                "GoodsRecipientName_fc": {
+                                    "type": "integer"
+                                },
+                                "IssuingOrReceivingPlant_fc": {
+                                    "type": "integer"
+                                },
+                                "IssuingOrReceivingStorageLoc_fc": {
+                                    "type": "integer"
+                                },
+                                "OrderID_fc": {
+                                    "type": "integer"
+                                },
+                                "ProfitCenter_fc": {
+                                    "type": "integer"
+                                },
+                                "SalesOrder_fc": {
+                                    "type": "integer"
+                                },
+                                "SalesOrderItem_fc": {
+                                    "type": "integer"
+                                },
+                                "SalesOrderScheduleLine_fc": {
+                                    "type": "integer"
+                                },
+                                "WBSElement_fc": {
+                                    "type": "integer"
+                                },
+                                "WBSElementInternalID_fc": {
+                                    "type": "integer"
+                                },
+                                "Delete_mc": {
+                                    "type": "boolean"
+                                },
+                                "Update_mc": {
+                                    "type": "boolean"
+                                },
+                                "to_ReservationDocumentItemTP_oc": {
+                                    "type": "boolean"
+                                },
+                                "Reservation": {
+                                    "type": "string"
+                                },
+                                "GoodsMovementType": {
+                                    "type": "string"
+                                },
+                                "GoodsMovementTypeName": {
+                                    "type": "string"
+                                },
+                                "ResvnVerificationCompanyCode": {
+                                    "type": "string"
+                                },
+                                "CompanyCodeName": {
+                                    "type": "string"
+                                },
+                                "OrderID": {
+                                    "type": "string"
+                                },
+                                "OrderDescription": {
+                                    "type": "string"
+                                },
+                                "UICT_OrderID": {
+                                    "type": "boolean"
+                                },
+                                "DebitCreditCode": {
+                                    "type": "string"
+                                },
+                                "DebitCreditCodeName": {
+                                    "type": "string"
+                                },
+                                "ResvnAcctAssgmtCategory": {
+                                    "type": "string"
+                                },
+                                "ResvnAcctAssgmtCategoryName": {
+                                    "type": "string"
+                                },
+                                "ReservationAccountAssignment": {
+                                    "type": "string"
+                                },
+                                "CostCenter": {
+                                    "type": "string"
+                                },
+                                "CostCenterName": {
+                                    "type": "string"
+                                },
+                                "UICT_CostCenter": {
+                                    "type": "boolean"
+                                },
+                                "ControllingArea": {
+                                    "type": "string"
+                                },
+                                "GoodsRecipientName": {
+                                    "type": "string"
+                                },
+                                "UICT_GoodsRecipientName": {
+                                    "type": "boolean"
+                                },
+                                "ReservationDate": {
+                                    "type": "string"
+                                },
+                                "IsCheckedAgainstFactoryCal": {
+                                    "type": "boolean"
+                                },
+                                "Customer": {
+                                    "type": "string"
+                                },
+                                "ProfitCenter": {
+                                    "type": "string"
+                                },
+                                "UICT_ProfitCenter": {
+                                    "type": "boolean"
+                                },
+                                "ProfitabilitySegment": {
+                                    "type": "string"
+                                },
+                                "UICT_ProfitabilitySegment": {
+                                    "type": "boolean"
+                                },
+                                "WBSElementInternalID": {
+                                    "type": "string"
+                                },
+                                "WBSElement": {
+                                    "type": "string"
+                                },
+                                "WBSDescription": {
+                                    "type": "string"
+                                },
+                                "UICT_WBSElementInternalID": {
+                                    "type": "boolean"
+                                },
+                                "SalesOrder": {
+                                    "type": "string"
+                                },
+                                "UICT_SalesOrder": {
+                                    "type": "boolean"
+                                },
+                                "SalesOrderItem": {
+                                    "type": "string"
+                                },
+                                "UICT_SalesOrderItem": {
+                                    "type": "boolean"
+                                },
+                                "SalesOrderScheduleLine": {
+                                    "type": "string"
+                                },
+                                "UICT_SalesOrderScheduleLine": {
+                                    "type": "boolean"
+                                },
+                                "AssetNumber": {
+                                    "type": "string"
+                                },
+                                "UICT_AssetNumber": {
+                                    "type": "boolean"
+                                },
+                                "AssetSubNumber": {
+                                    "type": "string"
+                                },
+                                "UICT_AssetSubNumber": {
+                                    "type": "boolean"
+                                },
+                                "IssuingOrReceivingPlant": {
+                                    "type": "string"
+                                },
+                                "IssuingOrReceivingPlantName": {
+                                    "type": "string"
+                                },
+                                "UICT_IssuingOrReceivingPlant": {
+                                    "type": "boolean"
+                                },
+                                "UICT_IssgOrRcvgPlntSpecTxt": {
+                                    "type": "string"
+                                },
+                                "IssuingOrReceivingStorageLoc": {
+                                    "type": "string"
+                                },
+                                "IssuingOrReceivingStorLocName": {
+                                    "type": "string"
+                                },
+                                "UICT_IssuingOrReceivingStorage": {
+                                    "type": "boolean"
+                                },
+                                "UICT_IssgOrRcvgStorLocSpecTxt": {
+                                    "type": "string"
+                                },
+                                "UserID": {
+                                    "type": "string"
+                                },
+                                "CreatedByUserName": {
+                                    "type": "string"
+                                },
+                                "CreationDateTime": {
+                                    "type": "string"
+                                },
+                                "LastChangedByUser": {
+                                    "type": "string"
+                                },
+                                "LastChangedByUserName": {
+                                    "type": "string"
+                                },
+                                "LastChangeDateTime": {},
+                                "NmbrOfCompletedResvnDocItms": {
+                                    "type": "integer"
+                                },
+                                "NmbrOfResvnDocItems": {
+                                    "type": "integer"
+                                },
+                                "ResvnDocCompletionPrgrsCritlty": {
+                                    "type": "integer"
+                                },
+                                "ReservationCompletionStatus": {
+                                    "type": "string"
+                                },
+                                "ResvnCompletionStatusText": {
+                                    "type": "string"
+                                },
+                                "RequirementType": {
+                                    "type": "string"
+                                },
+                                "ReservationItemCreationCode": {
+                                    "type": "string"
+                                },
+                                "ReservationCreationCode": {
+                                    "type": "string"
+                                },
+                                "ReservationCopyIsAllowed": {
+                                    "type": "boolean"
+                                },
+                                "HasDraftEntity": {
+                                    "type": "boolean"
+                                },
+                                "DraftEntityCreationDateTime": {
+                                    "type": "string"
+                                },
+                                "DraftEntityLastChangeDateTime": {
+                                    "type": "string"
+                                },
+                                "HasActiveEntity": {
+                                    "type": "boolean"
+                                },
+                                "IsActiveEntity": {
+                                    "type": "boolean"
+                                },
+                                "DraftAdministrativeData": {
+                                    "type": "object",
+                                    "properties": {
+                                        "__deferred": {
+                                            "type": "object",
+                                            "properties": {
+                                                "uri": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "SiblingEntity": {
+                                    "type": "object",
+                                    "properties": {
+                                        "__deferred": {
+                                            "type": "object",
+                                            "properties": {
+                                                "uri": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "to_ReservationDocumentItemTP": {
+                                    "type": "object",
+                                    "properties": {
+                                        "__deferred": {
+                                            "type": "object",
+                                            "properties": {
+                                                "uri": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "unstructured": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
