@@ -1,0 +1,67 @@
+{
+    "type": "object",
+    "properties": {
+        "statusCode": {
+            "type": "integer"
+        },
+        "response": {
+            "type": "object",
+            "properties": {
+                "structured": {
+                    "type": "object",
+                    "properties": {
+                        "d": {
+                            "type": "object",
+                            "properties": {
+                                "results": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "__metadata": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id": {
+                                                        "type": "string"
+                                                    },
+                                                    "uri": {
+                                                        "type": "string"
+                                                    },
+                                                    "type": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "ValuationArea": {
+                                                "type": "string"
+                                            },
+                                            "ValuationClass": {
+                                                "type": "string"
+                                            },
+                                            "StandardPrice": {
+                                                "type": "string"
+                                            },
+                                            "Currency": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "required": [
+                                            "__metadata",
+                                            "ValuationArea",
+                                            "ValuationClass",
+                                            "StandardPrice",
+                                            "Currency"
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "unstructured": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
