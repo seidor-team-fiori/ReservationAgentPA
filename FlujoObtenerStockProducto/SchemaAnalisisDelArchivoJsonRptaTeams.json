@@ -1,0 +1,60 @@
+{
+    "type": "object",
+    "properties": {
+        "ResponseTime": {
+            "type": "string"
+        },
+        "Responder": {
+            "type": "object",
+            "properties": {
+                "ObjectId": {
+                    "type": "string"
+                },
+                "TenantId": {
+                    "type": "string"
+                },
+                "Email": {
+                    "type": "string"
+                },
+                "DisplayName": {
+                    "type": "string"
+                }
+            }
+        },
+        "SubmitActionId": {
+            "type": "string"
+        },
+        "Data": {
+            "type": "object",
+            "properties": {
+                "plant": {
+                    "type": "string"
+                },
+                "storageLocation": {
+                    "type": "string"
+                },
+                "product": {
+                    "type": "string"
+                },
+                "action": {
+                    "type": "string"
+                }
+            }
+        },
+        "MessageId": {
+            "type": "string"
+        },
+        "MessageLink": {
+            "type": "string"
+        },
+        "error": {
+            "type": "string"
+        },
+        "code": {
+            "type": "integer"
+        },
+        "succeeded": {
+            "type": "boolean"
+        }
+    }
+}

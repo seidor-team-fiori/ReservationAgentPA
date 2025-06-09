@@ -1,0 +1,77 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.5",
+    "body": [
+      {
+        "type": "TextBlock",
+        "text": "@{concat('Stock Disponible de Producto ', triggerBody()?['text_1'], ' (', variables('vMaterial'), ')')}",
+        "weight": "Bolder",
+        "size": "Medium"
+      },
+      {
+        "type": "ColumnSet",
+        "columns": [
+          {
+            "type": "Column",
+            "width": "stretch",
+            "items": [
+              { "type": "TextBlock", "text": "Plant", "weight": "Bolder", "wrap": true }
+            ]
+          },
+          {
+            "type": "Column",
+            "width": "stretch",
+            "items": [
+              { "type": "TextBlock", "text": "Storage Location", "weight": "Bolder", "wrap": true }
+            ]
+          },
+          {
+            "type": "Column",
+            "width": "stretch",
+            "items": [
+              { "type": "TextBlock", "text": "CurrentStock", "weight": "Bolder", "wrap": true }
+            ]
+          },
+{
+            "type": "Column",
+            "width": "stretch",
+            "items": [
+              { "type": "TextBlock", "text": "Reservar?", "weight": "Bolder", "wrap": true }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Container",
+        "items": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": @{variables('vPlantColumn')}
+              },
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": @{variables('vStorageLocation')}
+              },
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": @{variables('vCurrentStoc')}
+              },
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": @{variables('vColButton')}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

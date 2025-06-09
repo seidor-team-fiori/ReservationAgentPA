@@ -1,0 +1,83 @@
+{
+    "type": "object",
+    "properties": {
+        "data": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "to_MaterialStock": {
+                        "type": "object",
+                        "properties": {
+                            "IsCollection": {
+                                "type": "boolean"
+                            },
+                            "Name": {
+                                "type": "string"
+                            },
+                            "Url": {
+                                "type": "string"
+                            },
+                            "AssociationLinkUrl": {}
+                        }
+                    },
+                    "Material": {
+                        "type": "string"
+                    },
+                    "Plant": {
+                        "type": "string"
+                    },
+                    "StorageLocation": {
+                        "type": "string"
+                    },
+                    "Batch": {
+                        "type": "string"
+                    },
+                    "Supplier": {
+                        "type": "string"
+                    },
+                    "Customer": {
+                        "type": "string"
+                    },
+                    "WBSElementInternalID": {
+                        "type": "string"
+                    },
+                    "SDDocument": {
+                        "type": "string"
+                    },
+                    "SDDocumentItem": {
+                        "type": "string"
+                    },
+                    "InventorySpecialStockType": {
+                        "type": "string"
+                    },
+                    "InventoryStockType": {
+                        "type": "string"
+                    },
+                    "MaterialBaseUnit": {
+                        "type": "string"
+                    },
+                    "MatlWrhsStkQtyInMatlBaseUnit": {
+                        "type": "integer"
+                    }
+                },
+                "required": [
+                    "to_MaterialStock",
+                    "Material",
+                    "Plant",
+                    "StorageLocation",
+                    "Batch",
+                    "Supplier",
+                    "Customer",
+                    "WBSElementInternalID",
+                    "SDDocument",
+                    "SDDocumentItem",
+                    "InventorySpecialStockType",
+                    "InventoryStockType",
+                    "MaterialBaseUnit",
+                    "MatlWrhsStkQtyInMatlBaseUnit"
+                ]
+            }
+        }
+    }
+}
